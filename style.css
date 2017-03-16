@@ -2,7 +2,6 @@ body {
 	background-color: black;
 	font-family: Trade Gothic, sans-serif;
 	font-size: 11px;
-	//color: #FFFFFF;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
@@ -91,6 +90,7 @@ body {
 
 .headtitle {
 	font-family: Trajan;
+	color: #FFFFFF;
 	font-size: 24px;
 	font-weight: bold;
 	text-shadow: 2px 2px 4px black;

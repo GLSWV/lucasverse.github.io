@@ -116,6 +116,9 @@ timeline {
 	margin: 0 auto !important;
 	float: none !important;
 }
+.description {
+	color: #14F5FF;	
+}
 img {
 	max-width: 100%;
 	height: auto;

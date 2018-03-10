@@ -1,3 +1,5 @@
+/*Mouse over Slider*/
+
 function switchImage() {
   var tmp = this.getAttribute('data-img2');
   this.setAttribute('data-img2', this.src);
@@ -22,3 +24,21 @@ function myMenu() {
 window.oncontextmenu = function(event) {
      return false;
 };
+
+
+/*Toggle Slider*/
+
+var toggleClass = document.getElementsByClassName("toggle");
+
+var toggleFunction = function() {
+  var imageElement = this.parentElement.parentElement.getElementsByClassName("imageItem")[0];
+  if(this.checked){
+    imageElement.src = imageElement.getAttribute("data-image-2");
+  }else{
+    imageElement.src = imageElement.getAttribute("data-image-1");
+  }
+};
+
+for (var i = 0; i < toggleClass.length; i++) {
+    toggleClass[i].addEventListener('click', toggleFunction, false);
+}

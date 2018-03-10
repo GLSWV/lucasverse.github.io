@@ -33,9 +33,9 @@ var toggleClass = document.getElementsByClassName("toggle");
 var toggleFunction = function() {
   var imageElement = this.parentElement.parentElement.getElementsByClassName("imageItem")[0];
   if(this.checked){
-    imageElement.src = imageElement.getAttribute("data-image-2");
+    imageElement.src = imageElement.getAttribute("data-image2");
   }else{
-    imageElement.src = imageElement.getAttribute("data-image-1");
+    imageElement.src = imageElement.getAttribute("data-image1");
   }
 };
 

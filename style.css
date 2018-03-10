@@ -16,7 +16,7 @@ body {
 	max-width: 960px;
 	min-width: 320px;
 	height: 320px;
-	background: url('images/Frames/banner_main.jpg') no-repeat top center;
+	background: url('images/frames/banner_main.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;
@@ -28,7 +28,7 @@ body {
 	min-width: 320px;
 	height: 320px;
 	max-height: 100%;
-	background: url('images/Frames/banner_tpm.jpg') no-repeat top center;
+	background: url('images/frames/banner_tpm.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;
@@ -39,7 +39,7 @@ body {
 	max-width: 960px;
 	min-width: 640px;
 	height: 320px;
-	background: url('images/Frames/banner_aotc.jpg') no-repeat top center;
+	background: url('images/frames/banner_aotc.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;
@@ -50,7 +50,7 @@ body {
 	max-width: 960px;
 	min-width: 640px;
 	height: 320px;
-	background: url('images/Frames/banner_rots.jpg') no-repeat top center;
+	background: url('images/frames/banner_rots.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;
@@ -61,7 +61,7 @@ body {
 	max-width: 960px;
 	min-width: 640px;
 	height: 320px;
-	background: url('images/Frames/banner_anh.jpg') no-repeat top center;
+	background: url('images/frames/banner_anh.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;
@@ -72,7 +72,7 @@ body {
 	max-width: 960px;
 	min-width: 640px;
 	height: 320px;
-	background: url('images/Frames/banner_tesb.jpg') no-repeat top center;
+	background: url('images/frames/banner_tesb.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;
@@ -83,7 +83,7 @@ body {
 	max-width: 960px;
 	min-width: 640px;
 	height: 320px;
-	background: url('images/Frames/banner_rotj.jpg') no-repeat top center;
+	background: url('images/frames/banner_rotj.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;

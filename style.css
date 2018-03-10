@@ -2,6 +2,7 @@ body {
 	background-color: black;
 	font-family: Trade Gothic, sans-serif;
 	font-size: 11px;
+	color: #FFFFFF;
 	width: 100%;
 	height: auto;
 	margin: 0 auto;
@@ -15,7 +16,7 @@ body {
 	max-width: 960px;
 	min-width: 320px;
 	height: 320px;
-	background: url('images/frames/banner_main.jpg') no-repeat top center;
+	background: url('images/Frames/banner_main.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;
@@ -27,7 +28,7 @@ body {
 	min-width: 320px;
 	height: 320px;
 	max-height: 100%;
-	background: url('images/frames/banner_tpm.jpg') no-repeat top center;
+	background: url('images/Frames/banner_tpm.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;
@@ -38,7 +39,7 @@ body {
 	max-width: 960px;
 	min-width: 640px;
 	height: 320px;
-	background: url('images/frames/banner_aotc.jpg') no-repeat top center;
+	background: url('images/Frames/banner_aotc.jpg') no-repeat top center;
 	background-attachment: fixed;
 	background-size: auto;
 	display: block;
@@ -48,6 +49,198 @@ body {
 	width: 100%;
 	max-width: 960px;
 	min-width: 640px;
+	height: 320px;
+	background: url('images/Frames/banner_rots.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: auto;
+	display: block;
+}
+#header_anh {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+	min-width: 640px;
+	height: 320px;
+	background: url('images/Frames/banner_anh.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: auto;
+	display: block;
+}
+#header_tesb {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+	min-width: 640px;
+	height: 320px;
+	background: url('images/Frames/banner_tesb.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: auto;
+	display: block;
+}
+#header_rotj {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+	min-width: 640px;
+	height: 320px;
+	background: url('images/Frames/banner_rotj.jpg') no-repeat top center;
+	background-attachment: fixed;
+	background-size: auto;
+	display: block;
+}
+
+.headtitle {
+	font-family: Trajan;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px black;
+}
+.subtitle {
+	font-family: Franklin Gothic;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 2px 2px 4px black;
+}
+
+timeline {
+	font-family: Franklin Gothic;
+	max-width: 480px;
+	width: 100%;
+}
+
+.centered {
+	text-align: center;
+	max-width: 480px;
+	margin: 0 auto !important;
+	float: none !important;
+}
+img {
+		max-width: 100%;
+    height: auto;
+		border: none;
+}
+#logo img {
+	max-width: 100%;
+	height: auto;
+	margin: 5% auto;
+	padding: 5px;
+}
+/*#logo img {
+	border: none;
+	max-width: 100%;
+	margin: 5% auto;
+	padding: 10px;
+}
+img.picture {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}*/
+
+ul.topnav {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #111;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+ul.topnav li {
+	float: left;
+}
+ul.topnav li a {
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 14px;
+}
+ul.topnav li a:hover {
+	background-color: black;
+}
+ul.topnav li.icon {
+	display: none;
+}
+@media screen and (max-width:959px) {
+ul.topnav li:not(:first-child) {
+	display: none;
+}
+ul.topnav li.icon {
+	float: right;
+	display: inline-block;
+}
+}
+@media screen and (max-width:959px) {
+ul.topnav.responsive {
+	position: relative;
+}
+ul.topnav.responsive li.icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+ul.topnav.responsive li {
+	float: none;
+	display: inline;
+}
+ul.topnav.responsive li a {
+	display: block;
+	text-align: left;
+}
+}
+
+/*Toggle Slider*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
 	height: 320px;
 	background: url('images/frames/banner_rots.jpg') no-repeat top center;
 	background-attachment: fixed;
